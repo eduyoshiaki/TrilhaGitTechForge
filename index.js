@@ -18,3 +18,18 @@ verificaNumero(2);
 verificaNumero(14);
 verificaNumero(9);
 verificaNumero(6);
+
+let stringAqui = ("em dezembro de 81");
+
+console.log("comprimento da string: ", stringAqui.length);
+
+let stringMaiuscula = stringAqui.toUpperCase();
+
+console.log("string em maiúsculo: ", stringMaiuscula);
+
+let palavras = stringAqui.split(" ")
+
+console.log("palavras na string")
+palavras.forEach(function(palavra) {
+    console.log(palavra);
+});
